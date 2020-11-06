@@ -5,7 +5,7 @@ const Article = require('./models/article')
 const methodOverride = require('method-override')
 const app = express()
 
-mongoose.connect('mongodb://localhost/blog', { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true })
+mongoose.connect(process.env.MONGO_URL || 'mongodb://localhost/blog', { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true })
 
 app.set('view engine', 'ejs')
 
