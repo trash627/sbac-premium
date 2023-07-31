@@ -1,4 +1,5 @@
 # sbac-premium
-This is SBAC-premium's source code and it's completely open source.
 
-If you want to contribute to the project and make changes or add new features just make a pull request.
+This is SBAC-Premium a markup blog website built primarily for storing and sharing ideas for friends and family.
+
+NOTE: This website is no longer active (didn't care to pay for heroku premium :p)
